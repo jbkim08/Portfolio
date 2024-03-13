@@ -8,7 +8,6 @@
 }
 
 body {
-  background-color: #081b29;
   color: #ededed;
 }
 
@@ -48,6 +47,8 @@ header {
 
 /* 여기서부터 홈섹션 */
 .home {
+  background: url("images/home.jpg") no-repeat center;
+  background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
